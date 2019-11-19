@@ -113,8 +113,7 @@ def num_points_scored(player_search)
     end
   end
 end
- num_points_scored("Ben Gordon")
- binding.pry
+
 def shoe_size(name)
   game_hash.each do |team, team_info|
     team_info[:players].each do |player|
